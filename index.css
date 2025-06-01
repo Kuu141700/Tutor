@@ -40,7 +40,6 @@ body {
   background-color: var(--header-bg); /* orange background */
   padding: 5px; /* Vertical padding */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow */
-  z-index: 1000;
   box-sizing: border-box;
   /* Remove border-radius and bottom border for a cleaner, block-like header */
   transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -175,9 +174,7 @@ ol li {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1001; /* Sit on top */
-  padding-top: 50px; /* Location of the box */
-  left: 0;
-  top: 0;
+  align-content: center; /* Location of the box */
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
