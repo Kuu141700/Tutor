@@ -38,7 +38,7 @@ body {
   position: static; /* Make header sticky */
   top: 10px;
   background-color: var(--header-bg); /* orange background */
-  padding: 10px; /* Vertical padding */
+  padding: 5px; /* Vertical padding */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow */
   z-index: 1000;
   box-sizing: border-box;
